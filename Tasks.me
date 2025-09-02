@@ -1,0 +1,126 @@
+🟢 Nivel 1: Fundamentos + Arranque básico
+
+- [ ] 1. Preparar el entorno en Ubuntu (instalar dependencias de Yocto).
+
+
+- [] 2. Descargar Poky y familiarizarse con su estructura.
+
+
+3. Descargar la capa meta-raspberrypi.
+
+
+4. Configurar el entorno de build con oe-init-build-env.
+
+
+5. Configurar bblayers.conf y local.conf para RPi4 + core-image-minimal.
+
+
+6. Compilar la imagen (bitbake core-image-minimal).
+
+
+7. Grabar la imagen en la microSD (usar bmaptool o dd).
+
+
+8. Conectar la Raspberry Pi 4 a la PC vía UART (USB–TTL).
+
+Conocer el pinout de GPIO para GND, TX, RX.
+
+Configurar terminal en Ubuntu (minicom o picocom).
+
+
+
+9. Arrancar la RPi4, ver el boot log completo en la consola serie.
+
+
+10. Ingresar al sistema con usuario root (sin password).
+
+
+
+
+---
+
+🟡 Nivel 2: Primeras personalizaciones
+
+11. Agregar servidor SSH (dropbear) a core-image-minimal.
+
+
+12. Reconstruir la imagen y volver a arrancar la RPi.
+
+
+13. Validar conexión SSH por Ethernet desde la PC.
+
+
+14. Añadir herramientas de usuario (nano, htop, iproute2, etc.).
+
+
+15. Explorar bitbake -c devshell para inspeccionar compilaciones.
+
+
+16. Modificar recetas existentes con .bbappend (ejemplo: cambiar mensaje de login).
+
+
+17. Probar ciclo típico: compilar → flashear SD → boot → debug.
+
+
+
+
+---
+
+🔵 Nivel 3: Kernel y Drivers en RPi4
+
+18. Ejecutar bitbake -c menuconfig virtual/kernel y modificar opciones.
+
+
+19. Añadir un módulo del kernel externo con receta propia.
+
+
+20. Explorar overlays de Raspberry Pi (.dtb y .dtbo).
+
+
+21. Habilitar periféricos específicos (I2C, SPI, UART extra).
+
+
+
+
+---
+
+🟣 Nivel 4: Sistema Embedded Real
+
+22. Crear tu propia capa personalizada (meta-mypractice).
+
+
+23. Escribir una receta con un programa en C simple y desplegarlo en la RPi.
+
+
+24. Crear un servicio systemd que arranque automáticamente tu app.
+
+
+25. Generar un SDK con populate_sdk y usarlo para cross-compilar apps fuera de Yocto.
+
+
+26. Personalizar tu propia imagen (core-image-mydevice) con todo lo necesario.
+
+
+
+
+---
+
+⚫ Nivel 5: Avanzado / Profesional
+
+27. Crear tu propia distro Yocto (DISTRO).
+
+
+28. Aplicar patches a recetas de terceros.
+
+
+29. Optimizar builds con sstate-cache y mirrors.
+
+
+30. Usar devtool para agilizar integración de proyectos.
+
+
+31. Debug de errores en bitbake, kernel o boot.
+
+
+32. Contribuir con un parche o receta a meta-raspberrypi o a la comunidad.
+
