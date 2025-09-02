@@ -1,6 +1,6 @@
 🟢 Nivel 1: Fundamentos + Arranque básico
 
-- [ ] Preparar el entorno en Ubuntu (instalar dependencias de Yocto).
+- [x] Preparar el entorno en Ubuntu (instalar dependencias de Yocto).
 
 - [ ] Descargar Poky y familiarizarse con su estructura.
 
