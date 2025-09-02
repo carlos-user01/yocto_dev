@@ -56,7 +56,6 @@
 
 
 
-
 🟣 Nivel 4: Sistema Embedded Real
 
 - [ ] Crear tu propia capa personalizada (meta-mypractice).
@@ -68,7 +67,6 @@
 - [ ] Generar un SDK con populate_sdk y usarlo para cross-compilar apps fuera de Yocto.
 
 - [ ] Personalizar tu propia imagen (core-image-mydevice) con todo lo necesario.
-
 
 
 
@@ -84,6 +82,4 @@
 
 - [ ] Debug de errores en bitbake, kernel o boot.
 
-
 - [ ] Contribuir con un parche o receta a meta-raspberrypi o a la comunidad.
-
