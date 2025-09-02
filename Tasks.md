@@ -1,85 +1,85 @@
-🟢 Nivel 1: Fundamentos + Arranque básico
+🟢 Level 1: Fundamentals + Basic Startup
 
-- [x] Preparar el entorno en Ubuntu (instalar dependencias de Yocto).
+- [ ] Prepare the environment in Ubuntu (install Yocto dependencies).
 
-- [ ] Descargar Poky y familiarizarse con su estructura.
+- [ ] Download Poky and familiarize with its structure.
 
-- [ ] Descargar la capa meta-raspberrypi.
+- [ ] Download the meta-raspberrypi layer.
 
-- [ ] Configurar el entorno de build con oe-init-build-env.
+- [ ] Configure the compilation environment with oe-init-build-env.
 
-- [ ] Configurar bblayers.conf y local.conf para RPi4 + core-image-minimal.
+- [ ] Configure bblayers.conf and local.conf for RPi4 + core-image-minimal.
 
-- [ ] Compilar la imagen (bitbake core-image-minimal).
+- [ ] Compile the image (bitbake core-image-minimal).
 
-- [ ] Grabar la imagen en la microSD (usar bmaptool o dd).
+- [ ] Flash the image to the microSD card (use bmaptool or dd).
 
-- [ ] Conectar la Raspberry Pi 4 a la PC vía UART (USB–TTL).
+- [ ] Connect the Raspberry Pi 4 to the PC via UART (USB–TTL).
 
-- [ ] Conocer el pinout de GPIO para GND, TX, RX.
+- [ ] Understand the GPIO pinout for GND, TX, and RX.
 
-- [ ] Configurar terminal en Ubuntu (minicom o picocom).
+- [ ] Configure the terminal in Ubuntu (minicom or picocom).
 
-- [ ] Arrancar la RPi4, ver el boot log completo en la consola serie.
+- [ ] Boot the RPi4, view the full boot log on the serial console.
 
-- [ ] Ingresar al sistema con usuario root (sin password).
-
-
-
-🟡 Nivel 2: Primeras personalizaciones
-
-- [ ] Agregar servidor SSH (dropbear) a core-image-minimal.
-
-- [ ] Reconstruir la imagen y volver a arrancar la RPi.
-
-- [ ] Validar conexión SSH por Ethernet desde la PC.
-
-- [ ] Añadir herramientas de usuario (nano, htop, iproute2, etc.).
-
-- [ ] Explorar bitbake -c devshell para inspeccionar compilaciones.
-
-- [ ] Modificar recetas existentes con .bbappend (ejemplo: cambiar mensaje de login).
-
-- [ ] Probar ciclo típico: compilar → flashear SD → boot → debug.
+- [ ] Log in as root (no password).
 
 
 
-🔵 Nivel 3: Kernel y Drivers en RPi4
+🟡 Level 2: First Customizations
 
-- [ ] Ejecutar bitbake -c menuconfig virtual/kernel y modificar opciones.
+- [ ] Add an SSH server (dropbear) to core-image-minimal.
 
-- [ ] Añadir un módulo del kernel externo con receta propia.
+- [ ] Rebuild the image and reboot the RPi.
 
-- [ ] Explorar overlays de Raspberry Pi (.dtb y .dtbo).
+- [ ] Validate an SSH connection over Ethernet from the PC.
 
-- [ ] Habilitar periféricos específicos (I2C, SPI, UART extra).
+- [ ] Add user tools (nano, htop, iproute2, etc.).
 
+- [ ] Explore bitbake -c devshell to inspect builds.
 
+- [ ] Modify existing recipes with .bbappend (for example, change the login message).
 
-🟣 Nivel 4: Sistema Embedded Real
-
-- [ ] Crear tu propia capa personalizada (meta-mypractice).
-
-- [ ] Escribir una receta con un programa en C simple y desplegarlo en la RPi.
-
-- [ ] Crear un servicio systemd que arranque automáticamente tu app.
-
-- [ ] Generar un SDK con populate_sdk y usarlo para cross-compilar apps fuera de Yocto.
-
-- [ ] Personalizar tu propia imagen (core-image-mydevice) con todo lo necesario.
+- [ ] Test the typical cycle: build → flash SD → boot → debug.
 
 
 
-⚫ Nivel 5: Avanzado / Profesional
+🔵 Level 3: Kernel and Drivers on RPi4
 
-- [ ] Crear tu propia distro Yocto (DISTRO).
+- [ ] Run bitbake -c menuconfig virtual/kernel and modify options.
 
-- [ ] Aplicar patches a recetas de terceros.
+- [ ] Add an external kernel module with own recipe.
 
-- [ ] Optimizar builds con sstate-cache y mirrors.
+- [ ] Explore Raspberry Pi overlays (.dtb and .dtbo).
 
-- [ ] Usar devtool para agilizar integración de proyectos.
+- [ ] Enable specific peripherals (extra I2C, SPI, UART).
 
-- [ ] Debug de errores en bitbake, kernel o boot.
 
-- [ ] Contribuir con un parche o receta a meta-raspberrypi o a la comunidad.
+
+🟣 Level 4: Real Embedded System
+
+- [ ] Create your own custom layer (meta-mypractice).
+
+- [ ] Write a recipe with a simple C program and deploy it to the RPi.
+
+- [ ] Create a systemd service that automatically starts the application.
+
+- [ ] Generate an SDK with populate_sdk and use it to cross-compile applications outside of Yocto.
+
+- [ ] Customize my own image (core-image-mydevice) with everything you need.
+
+
+
+⚫ Level 5: Advanced / Professional
+
+- [ ] Create my own Yocto distro (DISTRO).
+
+- [ ] Apply patches to third-party recipes.
+
+- [ ] Optimize builds with sstate-cache and mirrors.
+
+- [ ] Use devtool to speed up project integration.
+
+- [ ] Debug errors in bitbake, kernel, or boot.
+
+- [ ] Contribute a patch or recipe to meta-raspberrypi or the community.
