@@ -1,16 +1,28 @@
 🟢 Level 1: Fundamentals + Basic Startup
 
-- [ ] Prepare the environment in Ubuntu (install Yocto dependencies).
+- [x] Prepare the environment in Ubuntu (install Yocto dependencies).
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
-- [ ] Download Poky and familiarize with its structure.
+- [x] Download Poky and familiarize with its structure.
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
-- [ ] Download the meta-raspberrypi layer.
+- [x] Download the meta-raspberrypi layer.
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
-- [ ] Configure the compilation environment with oe-init-build-env.
+- [x] Configure the compilation environment with oe-init-build-env.
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
-- [ ] Configure bblayers.conf and local.conf for RPi4 + core-image-minimal.
+- [x] Configure bblayers.conf and local.conf for RPi4 + core-image-minimal.
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
-- [ ] Compile the image (bitbake core-image-minimal).
+- [x] Compile the image (bitbake core-image-minimal).
+      Start Date: 03 Sep 2025
+      End Date: 03 Sep 2025
 
 - [ ] Flash the image to the microSD card (use bmaptool or dd).
 
