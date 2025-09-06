@@ -24,6 +24,14 @@
       Start Date: 03 Sep 2025
       End Date: 03 Sep 2025
 
+- [x] Practice Basic Bash Shell scripting
+      Start Date: 05 Sep 2025
+      End Date: 06 Sep 2025
+
+- [x] Practice Basic vi editing in qemu
+      Start Date: 06 Sep 2025
+      End Date: 07 Sep 2025
+
 - [ ] Flash the image to the microSD card (use bmaptool or dd).
 
 - [ ] Connect the Raspberry Pi 4 to the PC via UART (USB–TTL).
