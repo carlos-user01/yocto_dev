@@ -32,13 +32,19 @@
       Start Date: 06 Sep 2025
       End Date: 07 Sep 2025
 
-- [ ] Flash the image to the microSD card (use bmaptool or dd).
+- [x] Flash the image to the microSD card (using bmaptool).
+      Start Date: 16 Sep 2025
+      End Date: 16 Sep 2025
 
 - [ ] Connect the Raspberry Pi 4 to the PC via UART (USB–TTL).
 
-- [ ] Understand the GPIO pinout for GND, TX, and RX.
+- [x] Understand the GPIO pinout for GND, TX, and RX.
+      Start Date: 16 Sep 2025
+      End Date: 16 Sep 2025
 
-- [ ] Configure the terminal in Ubuntu (minicom or picocom).
+- [x] Configure the terminal in Ubuntu (picocom).
+      Start Date: 16 Sep 2025
+      End Date: 16 Sep 2025
 
 - [ ] Boot the RPi4, view the full boot log on the serial console.
 
