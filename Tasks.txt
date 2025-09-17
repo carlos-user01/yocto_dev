@@ -36,7 +36,9 @@
       Start Date: 16 Sep 2025
       End Date: 16 Sep 2025
 
-- [ ] Connect the Raspberry Pi 4 to the PC via UART (USB–TTL).
+- [x] Connect the Raspberry Pi 4 to the PC via UART (USB–TTL).
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
 - [x] Understand the GPIO pinout for GND, TX, and RX.
       Start Date: 16 Sep 2025
@@ -46,19 +48,29 @@
       Start Date: 16 Sep 2025
       End Date: 16 Sep 2025
 
-- [ ] Boot the RPi4, view the full boot log on the serial console.
+- [x] Boot the RPi4, view the full boot log on the serial console.
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
-- [ ] Log in as root (no password).
+- [x] Log in as root (no password).
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
 
 
 🟡 Level 2: First Customizations
 
-- [ ] Add an SSH server (dropbear) to core-image-minimal.
+- [x] Add an SSH server (open-ssh) to core-image-minimal.
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
-- [ ] Rebuild the image and reboot the RPi.
+- [x] Rebuild the image and reboot the RPi.
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
-- [ ] Validate an SSH connection over Ethernet from the PC.
+- [x] Validate an SSH connection over Ethernet from the PC.
+      Start Date: 17 Sep 2025
+      End Date: 17 Sep 2025
 
 - [ ] Add user tools (nano, htop, iproute2, etc.).
 
