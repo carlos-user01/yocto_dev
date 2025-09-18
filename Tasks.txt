@@ -72,9 +72,28 @@
       Start Date: 17 Sep 2025
       End Date: 17 Sep 2025
 
+- [x] Migrate to systemd
+      Start Date: 18 Sep 2025
+      End Date: 18 Sep 2025
+
+- [x] Add a new basic layer (meta-krlos)
+      Start Date: 18 Sep 2025
+      End Date: 18 Sep 2025
+
 - [ ] Add user tools (nano, htop, iproute2, etc.).
 
 - [ ] Explore bitbake -c devshell to inspect builds.
+
+- [x] Add getty to the configuration as a recipe
+      Start Date: 18 Sep 2025
+      End Date: 18 Sep 2025
+
+- [x] Add static network configuration for RPi4 (networkd)
+      Start Date: 18 Sep 2025
+      End Date: 18 Sep 2025
+
+- [ ] Send commands to RPi using getty and connect SSH with the new configuration
+      Start Date: 18 Sep 2025
 
 - [ ] Modify existing recipes with .bbappend (for example, change the login message).
 
