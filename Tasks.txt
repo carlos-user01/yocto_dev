@@ -92,12 +92,15 @@
       Start Date: 18 Sep 2025
       End Date: 18 Sep 2025
 
-- [ ] Send commands to RPi using getty and connect SSH with the new configuration
+- [x] Send commands to RPi using getty and connect SSH with the new configuration
       Start Date: 18 Sep 2025
+      End Date: 21 Sep 2025
 
 - [ ] Modify existing recipes with .bbappend (for example, change the login message).
 
-- [ ] Test the typical cycle: build → flash SD → boot → debug.
+- [x] Test the typical cycle: build → flash SD → boot → debug.
+      Start Date: 18 Sep 2025
+      End Date: 21 Sep 2025
 
 
 
