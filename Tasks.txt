@@ -80,9 +80,13 @@
       Start Date: 18 Sep 2025
       End Date: 18 Sep 2025
 
-- [ ] Add user tools (nano, htop, iproute2, etc.).
+- [x] Add user tools (nano, htop, iproute2, etc.).
+      Start Date: 22 Sep 2025
+      End Date: 22 Sep 2025
 
-- [ ] Explore bitbake -c devshell to inspect builds.
+- [x] Explore bitbake -c devshell to inspect builds.
+      Start Date: 22 Sep 2025
+      End Date: 22 Sep 2025
 
 - [x] Add getty to the configuration as a recipe
       Start Date: 18 Sep 2025
@@ -96,11 +100,17 @@
       Start Date: 18 Sep 2025
       End Date: 21 Sep 2025
 
-- [ ] Modify existing recipes with .bbappend (for example, change the login message).
+- [x] Modify existing recipes with .bbappend (for example, change the login message).
+      Start Date: 22 Sep 2025
+      End Date: 22 Sep 2025
 
 - [x] Test the typical cycle: build → flash SD → boot → debug.
       Start Date: 18 Sep 2025
       End Date: 21 Sep 2025
+
+- [ ] Commit and push the configuration files to github
+      Start Date: 22 Sep 2025
+      
 
 
 
