@@ -108,8 +108,9 @@
       Start Date: 18 Sep 2025
       End Date: 21 Sep 2025
 
-- [ ] Commit and push the configuration files to github
+- [x] Commit and push the configuration files to github
       Start Date: 22 Sep 2025
+      End Date: 23 Sep 2025
       
 
 
