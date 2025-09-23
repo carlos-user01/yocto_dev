@@ -1,0 +1,13 @@
+[Unit]
+Description=Serial Getty on ttyAMA0
+After=systemd-user-sessions.service plymouth-quit-wait.service
+After=rc-local.service
+
+[Service]
+ExecStart=-/sbin/agetty -o '-p -- \\u' --noclear --keep-baud 115200,38400,9600 ttyAMA0 vt102
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=getty.target
+

@@ -1,22 +1,13 @@
-# Ignorar TODO por defecto
+# Ignorar todo
 *
 
-# Excepciones EXPLÍCITAS
+# Excepciones
 !.gitignore
 !/poky/
+!/poky/meta-rpi-krlos/
 !/poky/build/
 !/poky/build/conf/
-!/poky/meta-rpi-krlos/
 
-# Ignorar TODO en poky/ excepto lo específico
-poky/*
-!poky/build/
-!poky/meta-rpi-krlos/
-
-# En build/, solo mantener conf/
-poky/build/*
-!poky/build/conf/
-
-# Asegurar archivos de configuración específicos (si existen)
-!poky/build/conf/local.conf
-!poky/build/conf/bblayers.conf
+# Archivos específicos (opcional - más restrictivo)
+!poky/build/conf/*.conf
+!poky/meta-rpi-krlos/**/*

@@ -1,0 +1,3 @@
+dtparam=uart0=on
+enable_uart=1
+
