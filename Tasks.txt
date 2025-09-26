@@ -117,7 +117,9 @@
 
 🔵 Level 3: Kernel and Drivers on RPi4
 
-- [ ] Run bitbake -c menuconfig virtual/kernel and modify options.
+- [x] Run bitbake -c menuconfig virtual/kernel and modify options.
+      Start Date: 24 Sep 2025
+      End Date: 26 Sep 2025
 
 - [ ] Add an external kernel module with own recipe.
 
